@@ -1,5 +1,5 @@
 body{ 
-    font-family:'Roboto', 'Arial' sans-serif ;
+    font-family:"Roboto", sans-serif ;
     color:#434455;
     background-color:#ffffff ;
 }
@@ -26,14 +26,19 @@ ul {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        font-style: normal;
+        color: #4d5ae5;
 }
 
-.header-nav .accent {
-        color: #4d5ae5;
+.nav-link .accent{
+    color: #2e2f42;
+}
+
+.header-nav{
+
 }
 
 .nav-list {
@@ -51,6 +56,10 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+}
+
+.nav-list-link:hover,:focus{
+    color: #404bbf;
 }
 
 .header-address {
@@ -74,6 +83,10 @@ ul {
         color: #434455;
 }
 
+.header-address-link:hover, :focus{
+    color: #404bbf;
+}
+
 /* =====START===== */
 
 .start {
@@ -88,7 +101,8 @@ ul {
         color: #ffffff;
 }
 
-.start-bnt {
+.btn {
+    font-family: "Roboto", sans-serif;
                 background: #4d5ae5;           
                     font-weight: 500;
                     font-size: 16px;
@@ -98,6 +112,9 @@ ul {
                     cursor: pointer;
 }
 
+.btn:hover, :focus{
+    background-color: #404bbf;
+}
 /* =====BENEFITS===== */
 
 .benefits {
@@ -139,6 +156,7 @@ ul {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .ourteam-list {
@@ -146,11 +164,12 @@ ul {
 }
 
 .ourteam-item {
+    background: #ffffff;
 
 }
 
 .ourteam-image {
-    background: #fff;
+
 }
 
 .ourteam-subtitle {
@@ -178,10 +197,11 @@ ul {
 
 .portfolio-title {
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -221,14 +241,14 @@ ul {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
+        color: #4d5ae5;
 }
 
 .footer-link .accent {
-        color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .footer-text {
